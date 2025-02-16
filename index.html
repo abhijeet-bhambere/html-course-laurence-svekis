@@ -7,7 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             /*Declare manually in style tag*/
-            h2{color:blueviolet;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} 
+            div{color:blueviolet}
+            h2{color:#fffaff;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} 
             /* Or declare in a .CSS file */
         </style>
         <link rel="stylesheet" href="style.css">
@@ -18,38 +19,61 @@
             
         <p><h1>Hello  world -- this is h1 heading</h1></p> 
         <hr>
-        <p><h2>This is an h2 heading</h2></p>
+        <p><h2>This is an H2 Heading</h2></p>
 
         <p>Line with html styling elements</p>
-        <p title="This is the tooltip on hover detail">This line has a tooltip</p>
-        <p>Line with page breaks and 
-            <!--Line breaks are self closing tags-->
+        <p title="A tooltip on hover detail">This line has a tooltip
             <br>
-        now moving further</p>
+            and also has a line break.
+            <!--Line breaks are self closing tags-->
+        </p>
 
         <hr>
-        <h2>Another h2 heading</h2>
+        <h3>Text formatting elements</h3>
         <!-- Adding various Markups -->
+        <p>Text can be formatted to be: <b>Bold</b> <i>italics</i> or <u>underlined</u>.
+            It can also be <sub>subscripted text</sub> as well as <sup>superscipted text</sup>.<br>
+            Then there's <em>Emphasized text</em> , <strong>Strong</strong> text, 
+            the<small> small</small> and <big>big</big> tags to draw viewer's attention.
+        </p>
+        <p><mark>This is a sentence with marker </mark> while <del> this is a striked-out line </del> .</p>
+
         <blockquote>This is a blockquote element to cite another source</blockquote>
         
-        <p><mark>This is a sentence with marker </mark> while <del> This is a striked-out line </del> .</p>
-
-        <p>Text can be formatted to be:
-            <b>Bold</b> <i>italics</i> or <u>underlined</u>. 
-            It can also be <sub>subscripted text</sub> as well as <sup>superscipted text</sup>
-            <br>
-            Then there's <em>Emphasized text</em> , <strong>Strong</strong> text. And
-            there's also the<small> tag for small text</small> and <big> for big text</big>.
-        </p>
         <p>
+            Use the <code>code tag to encapsulate</code> lines of code 
             <cite>This is a text within cite</cite>
             <pre>This is a preformatted text line</pre>
             
-            Use the <code>code tag to encapsulate</code> lines of code 
         </p>
 
-        <p>End of this section</p>
         <hr>
+        <h3><big><code>divs</code></big> and <big><code>spans</code></big></h3>
+        <!-- Moving on to divs & spans -->
+        <p>The div and span elements can be used to create sort of a template for specific blocks to which style can be applied:  
+            <div>The div element allows to create a section of the content as a new block 
+                <span>while the span content also allows the same but without affecting the look.</span> of the output.
+                Styling for both can be applied in the css style sheet
+            </div>
+        </p>
+        <p>
+            <div id="type1">Several divs can be assigned a unique 'id' & apply styling in the CSS file that is specific to that id.</div> 
+            <div id="type2">Creating a second div to illustrate this example.</div>
+        </p>
+        <hr>
+        <h3>The <big><code>class</code></big> element</h3>
+        <p class="newhighlight">
+            Unlike <code>id</code>s that need to be unqiue, we can re-use <code>class</code>
+            in a webpage to set the styling of multiple elements in a webpage. 
+            <br>
+            This para contains a declared class that has some styling elements defined.
+        </p>
+        <p class="newhighlight">Creating another section of that utilizes the same <code>newhighlight</code> styling used above</p>
+        <hr>
+        <h3>Colors in html</h3>
+        <p>Colors can be in hexadecimal. Changing the defined values will change the color share in
+            an <font color="#ff0000"><b>R</b></font><font color="#009900"><b>G</b></font><font color="#0000ff"><b>B</b></font> color spectrum 
+        </p>
 
     </body>
 </html>

@@ -1,10 +1,28 @@
 /* Defining the Heading1 styling*/
-h1{font-weight:900;color:ghostwhite;background-color:dimgray;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h1{color:ghostwhite;background-color:#14213d;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 /* Defining the Heading2 styling */
-h2{font-weight:700;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+h2{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #465362;}
+
+/* Defining the Heading3 styling */
+h3{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #465362;
+    color:#e6e6ea}
 
 /* Defining the paragraph styling */
 p{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:darkslategray;
+    background-color:#e6e6ea;
+    color: #011936;}
+
+/* Defining styling for span & div */
+span{background:lightcoral;color:black; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+div{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#type1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color:black;color:aliceblue;}
+#type2{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color:darkgreen;color:aqua;}
+
+/* Defining class */
+.newhighlight{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:slategrey;
     color: aliceblue;}
